@@ -30,7 +30,7 @@ async function speak(text,token,plan=[]){
  const s=settings();$('phase').textContent='Preparing audio';notice(sampleMode?'Preparing recorded examples with your pause settings.':s.backend==='qwen3'?'Generating neural speech on this Mac. The first reply may take longer.':'Preparing speech on this Mac…');
  const d=await api('/api/say',{text,...s,plan});if(token!==epoch)return;
  showTimeline(d);renderPauseEditor();if(text!==last)$('pauseEditor').hidden=true;log('audio-ready',{duration:d.duration,segments:d.segments,preparation_s:d.preparation_s,...s});send({type:'speak',audio:d.audio,id:token,segments:d.segments});
- $('metrics').textContent=`${s.backend==='qwen3'?'Qwen3-TTS':'System voice'} · prepared in ${d.preparation_s.toFixed(1)}s · audio ${d.duration.toFixed(1)}s`;
+ $('metrics').textContent=`${sampleMode?'Recorded example':s.backend==='qwen3'?'Qwen3-TTS':'System voice'} · prepared in ${d.preparation_s.toFixed(1)}s · audio ${d.duration.toFixed(1)}s`;
  notice(d.quality_retry||d.quality_retries?.length?'An unusually long speech segment was regenerated with Calm delivery.':s.backend==='qwen3'?'Neural speech generated locally. Timing follows the prepared audio.':'Speech ready. Planned pauses are included in the audio.');
 }
 async function submit(text){
