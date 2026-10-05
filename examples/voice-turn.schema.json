@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"VOICE PCM turn","type":"object","required":["format","audioBase64"],"properties":{"format":{"const":"pcm_16000"},"audioBase64":{"type":"string","description":"Base64 raw mono PCM16 little-endian at 16 kHz"},"responseText":{"type":"string"},"turnIndex":{"type":"integer"},"emotionCode":{},"motionCode":{}}}

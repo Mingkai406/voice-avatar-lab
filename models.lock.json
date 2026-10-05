@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "sources": {
+    "DH_live": {
+      "url": "https://github.com/kleinlee/DH_live.git",
+      "revision": "4467e97cd97194c2c54762043cf121c6d313db12",
+      "path": "vendor/DH_live",
+      "sparse": [
+        "web_demo/static",
+        "README.md",
+        "README_en.md"
+      ]
+    },
+    "LivePortrait": {
+      "url": "https://github.com/KlingAIResearch/LivePortrait.git",
+      "revision": "9b294b3d0536135442ea73cb01e6cb3ca7029dd3",
+      "path": "vendor/LivePortrait"
+    }
+  },
+  "models": {
+    "dialogue": {
+      "repo": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "path": "models/qwen"
+    },
+    "asr": {
+      "repo": "Systran/faster-whisper-tiny.en",
+      "revision": "0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+      "path": "models/whisper"
+    },
+    "speech": {
+      "repo": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-6bit",
+      "revision": "1c6c0ff58c43afa8df571facde2efa077efd85e2",
+      "path": "models/qwen3-tts"
+    },
+    "expression": {
+      "repo": "KlingTeam/LivePortrait",
+      "revision": "82a4fa6735ca58432b6ce39301b4b9ee066dea47",
+      "path": "vendor/LivePortrait/pretrained_weights",
+      "allow_patterns": [
+        "liveportrait/base_models/*.pth",
+        "liveportrait/retargeting_models/*.pth"
+      ]
+    }
+  }
+}

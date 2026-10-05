@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Setup and troubleshooting
+    url: https://github.com/Mingkai406/voice-avatar-lab/blob/main/docs/installation.md
+    about: Check the installation guide before reporting a setup issue.

@@ -1,0 +1,25 @@
+name: Bug report
+description: Report a reproducible failure using synthetic examples.
+labels: [bug]
+body:
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Runtime mode
+      options: [Sample, Full local MLX, API dialogue provider]
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps and expected behavior
+      description: Include a small synthetic example. Never include keys or patient data.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, hardware/memory, Python, repository commit, provider/model ID and error message.
+    validations:
+      required: true
