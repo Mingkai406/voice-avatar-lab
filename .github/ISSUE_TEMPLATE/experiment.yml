@@ -1,0 +1,23 @@
+name: Model or feature experiment
+description: Propose a focused contribution and evaluation plan.
+labels: [experiment]
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective and component
+      description: What behavior changes, and which module owns it?
+    validations:
+      required: true
+  - type: textarea
+    id: evaluation
+    attributes:
+      label: Comparison and success criteria
+      description: Baseline, test inputs, hardware, latency/quality/control measures and resources needed.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources and licensing
+      description: Link official model/code pages and any relevant restrictions.

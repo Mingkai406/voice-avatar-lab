@@ -1,0 +1,81 @@
+{
+  "description": "Synthetic Qwen3-TTS/Aiden example audio. No human recordings. Fixed native-speed WAV, PCM16 mono 16 kHz.",
+  "clips": {
+    "For the rain": {
+      "file": "01.wav",
+      "sha256": "02eccfe431bebf192c59aac98eeea5b7fb67bcdf8bab6133f3086624779d950d"
+    },
+    "I": {
+      "file": "02.wav",
+      "sha256": "04e477117dd379e5159b7f6821bcca3aeec6bb59866bdd58c590d2ab0a6c03ca"
+    },
+    "I enjoy gardening": {
+      "file": "03.wav",
+      "sha256": "252b8cc440c73f2705b9a6dbb2d0c92484942337f0e9793c370f805c8c3119f2"
+    },
+    "I know it": {
+      "file": "04.wav",
+      "sha256": "2ef64d3cbc74759b2d3bf24f0ff6e28ae0135d0fef2fc18e3c3a9d89e75d37d0"
+    },
+    "I live with my partner Sam.": {
+      "file": "05.wav",
+      "sha256": "4476ff9a0f92a29c31aa46c742cc8a476c9d9b329065f65727fbb9b03b541cb5"
+    },
+    "I would like": {
+      "file": "06.wav",
+      "sha256": "d6c30b9d5a6123849de32c6894ec84ab5bdffd6838ff3521b0c473aa8fb1ffe0"
+    },
+    "Thank you": {
+      "file": "07.wav",
+      "sha256": "93df5312c28c8b0eb88bf411ca5d1805748529767371c12b437412b9330201a8"
+    },
+    "The sound": {
+      "file": "08.wav",
+      "sha256": "e7a16aa3ccdae6708520222ec8606105138648eba9e1e0a2119c27ed6c1c677b"
+    },
+    "Um": {
+      "file": "09.wav",
+      "sha256": "c9978048f94bb75b92cdfec78749be0d47b4f08dd8bfddb8f56cabb90e7d2433"
+    },
+    "Umbrella. I have it now.": {
+      "file": "10.wav",
+      "sha256": "50614b3e14c1a815d0709f80e59aed151ba2c2e3ec7815082c25fd1c9554a62e"
+    },
+    "Umbrella. Yes, that is the word.": {
+      "file": "11.wav",
+      "sha256": "eaac7d60083fe295db3da7c9918b7e498f1de8e7e36cd5e2fb803a2edc8f9cfa"
+    },
+    "and drinking tea.": {
+      "file": "12.wav",
+      "sha256": "d61f584e1a104acedefa5d9fb5f8bf14b0ba90cc544547bace8432508e7fbced"
+    },
+    "give me a moment.": {
+      "file": "13.wav",
+      "sha256": "cd975e921925a4bacc30f1be45ea63b94ccacd0c714b0bf1e687592fcb41730d"
+    },
+    "some tea, please.": {
+      "file": "14.wav",
+      "sha256": "f4d62f5eea5fa54b57724a0d9362403d364e10284581887e32609bcd48bc1962"
+    },
+    "still trying.": {
+      "file": "15.wav",
+      "sha256": "389435918a0498bfe82d144b90c082640f97d0569104a277a98c5f98591af7dc"
+    },
+    "the word.": {
+      "file": "16.wav",
+      "sha256": "c82e3dc52203772e834059586e60b3bff211609d45a1b5829d17e711722bd775"
+    },
+    "um": {
+      "file": "17.wav",
+      "sha256": "09964710771e3996821f1bf76d5b32aa78eda17ee7f24b925ec9beee3eb49d8c"
+    },
+    "umbrella. Yes.": {
+      "file": "18.wav",
+      "sha256": "a93822df923360532904be88bd597baf9e5850df1d8d82291bf0e30efc11fc3c"
+    },
+    "which sound?": {
+      "file": "19.wav",
+      "sha256": "1d5a3494177b9dd17b2d686d7e9b340dbab5287a085f12ccef55eff44347b1b2"
+    }
+  }
+}
